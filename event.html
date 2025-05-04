@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Kafé | Event Community</title>
+
+    <style>
+        /* Body Styling */
+        body {
+            background-color: #b06500;
+            background-image: linear-gradient(315deg, #b06500 0%, #5A321A 74%);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background-color: #fff;
+            color: #333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 1rem;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #6f4e37;
+            color: #fff;
+            font-size: 1.1rem;
+        }
+
+        td ul, td ol {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+        }
+
+        td ul li, td ol li {
+            margin-bottom: 0.5rem;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        
+    <header id="header">
+        <div class="header-top-bar">
+            <span>Welcome to Bring Mih Kafé</span>
+        </div>
+
+    <nav class="navigation">
+        <a href="Home.html" class="logo">
+            <img src="logo.png" alt="logo">
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="menu" id="menu" >
+            <li><a href="Home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" id="dropdown-toggle">Explore </a>
+                <div class="dropdown-content">
+                    <a href="blog.html">Blog Insights</a>
+                    <a href="team.html">Team </a>
+                    <a href="services.html">Services</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="event.html">Event Community</a>
+                    <a href="book.html">Book Spacing</a>
+                    <a href="location.html">Our location</a>
+                    <a href="Testimonials.html">Customer Testimonials</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="right-nav">
+            <a href="#" class="nav-cart">
+                <i class="fas fa-mug-hot"></i>
+            </a>
+        </div>
+    </nav>
+    <div id="menu-overlay" class="menu-overlay"></div>
+    </header>
+
+    <div class="container">
+        <table>
+          <tr>
+            <th>Event</th>
+            <th>Date & Time</th>
+            <th>Description</th>
+            <th>Details</th>
+          </tr>
+          <tr>
+            <td>Open Mic & Poetry Night</td>
+            <td>Friday, May 10th • 7:00 PM</td>
+            <td>Local poets, musicians, and storytellers perform in a cozy setting.</td>
+            <td>
+              <ul>
+                <li>Free entry</li>
+                <li>Complimentary espresso shot for performers</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Brew & Book Club</td>
+            <td>Sunday, May 19th • 4:00 PM</td>
+            <td>Read and discuss "The Bean Diaries" with fellow book lovers.</td>
+            <td>
+              <ol>
+                <li>10% off all drinks</li>
+                <li>Monthly book picks</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Art in the Café</td>
+            <td>Ongoing through May</td>
+            <td>Local art showcase with proceeds supporting neighborhood charities.</td>
+            <td>
+              <ul>
+                <li>All pieces are for sale</li>
+                <li>20% of proceeds go to charity</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+</div>
+
+<footer class="custom-footer">
+    <p>&copy; 2025 All Rights Reserved</p>
+</footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

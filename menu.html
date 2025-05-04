@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Kafé | Menu</title>
+
+
+    <style>
+        body{
+            background-color: #b06500;
+            background-image: linear-gradient(315deg, #b06500 0%, #5A321A 74%);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: whitesmoke;
+        }
+
+        .img-fluid {
+            width: 150px; 
+            height: 150px; 
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        
+    <header id="header">
+        <div class="header-top-bar">
+            <span>Welcome to Bring Mih Kafé</span>
+        </div>
+
+    <nav class="navigation">
+        <a href="Home.html" class="logo">
+            <img src="logo.png" alt="logo">
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="menu" id="menu" >
+            <li><a href="Home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" id="dropdown-toggle">Explore </a>
+                <div class="dropdown-content">
+                    <a href="blog.html">Blog Insights</a>
+                    <a href="team.html">Team </a>
+                    <a href="services.html">Services</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="event.html">Event Community</a>
+                    <a href="book.html">Book Spacing</a>
+                    <a href="location.html">Our location</a>
+                    <a href="Testimonials.html">Customer Testimonials</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="right-nav">
+            <a href="#" class="nav-cart">
+                <i class="fas fa-mug-hot"></i>
+            </a>
+        </div>
+    </nav>
+    <div id="menu-overlay" class="menu-overlay"></div>
+    </header>
+
+
+    <div class="container text-center py-4">
+        <h2>Our Special Coffee</h2>
+    </div>
+   
+
+      <div class="container text-center py-4">
+        <div class="row">
+          <div class="col-md-4">
+         
+             <img src="expresso.png" alt="Specialty Coffee" class="img-fluid mb-3">
+            <div class="specialty-icon">&#9749;</div>
+            <h5>Espresso Coffee</h5>
+            <p>A rich, concentrated shot of coffee with a bold flavor and velvety crema.</p>
+            <div class="card-footer">
+              <p class="price mb-2">$5.00</p>
+           
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="capuccino.png" class="img-fluid mb-3" alt="Specialty Coffee">
+            <div class="specialty-icon">&#9749;</div>
+            <h5>Capuccino Coffee</h5>
+            <p>Creamy and foamy, a perfect blend of espresso, steamed milk, and milk foam.</p>
+            <div class="card-footer">
+              <p class="price mb-2">$5.75</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="americano.png" class="img-fluid mb-3" alt="Specialty Coffee">
+            <div class="specialty-icon">&#9749;</div>
+            <h5>Americano Coffee</h5>
+            <p>Smooth and mild, made by diluting espresso with hot water.</p>
+            <div class="card-footer">
+              <p class="price mb-2">$6.50</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <img src="cafe.png" class="img-fluid mb-3" alt="Specialty Coffee">
+            <div class="specialty-icon">&#9749;</div>
+            <h5>Café au Lait Coffee</h5>
+            <p> A balanced combination of brewed coffee and warm milk, mild and comforting.</p>
+            <div class="card-footer">
+              <p class="price mb-2">$6.50</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <img src="latte.png" class="img-fluid mb-3" alt="Specialty Coffee">
+            <div class="specialty-icon">&#9749;</div>
+            <h5>Latte Coffee</h5>
+            <p>A smooth mix of espresso and steamed milk with a light layer of foam.</p>
+            <div class="card-footer">
+              <p class="price mb-2">$5.75</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <img src="flatwhite.png" class="img-fluid mb-3" alt="Specialty Coffee">
+            <div class="specialty-icon">&#9749;</div>
+            <h5>Flat White Coffee</h5>
+            <p>Creamier than a latte with microfoam that enhances its velvety texture.p>
+              <div class="card-footer">
+                <p class="price mb-2">$4.00</p>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+
+      <div class="container text-center py-4">
+        <h2>Our Special Pastries</p></h2>
+      </div>
+
+      <div class="container text-center py-4">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="croissant.png" alt="Specialty Pastry" class="img-fluid mb-3">
+            <div class="specialty-icon">&#127849;</div>
+            <h5>Croissant</h5>
+            <p>A buttery, flaky, crescent-shaped pastry.</p>
+            <div class="card-footer ">
+              <p class="price mb-2">$3.00</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="donut.png" class="img-fluid mb-3" alt="Specialty Pastry">
+            <div class="specialty-icon">&#127849;</div>
+            <h5>Donut</h5>
+            <p>A fried, round pastry, often glazed or filled with cream or jam.</p>
+            <div class="card-footer ">
+              <p class="price mb-2">$2.50</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="muffins.png" class="img-fluid mb-3" alt="Specialty Pastry">
+            <div class="specialty-icon">&#127849;</div>
+            <h5>Muffins</h5>
+            <p>A soft, sweet baked treat, often with fruit or chocolate chips.</p>
+            <div class="card-footer">
+              <p class="price mb-2">$3.00</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <img src="cinnamon.png" class="img-fluid mb-3" alt="Specialty Pastry">
+            <div class="specialty-icon">&#127849;</div>
+            <h5>Cinnamon</h5>
+            <p> A spiral-shaped sweet roll filled with cinnamon and sugar, topped with icing</p>
+            <div class="card-footer">
+              <p class="price mb-2">$3.50</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <img src="scone.png" class="img-fluid mb-3" alt="Specialty Pastry">
+            <div class="specialty-icon">&#127849;</div>
+            <h5>Scone</h5>
+            <p>A crumbly, lightly sweetened pastry, often served with jam or cream.</p>
+            <div class="card-footer">
+              <p class="price mb-2">$2.75</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <img src="danish.png" class="img-fluid mb-3" alt="Specialty Pastry">
+            <div class="specialty-icon">&#127849;</div>
+            <h5>Danish Pastry</h5>
+            <p> A flaky pastry with fruit or custard filling, sometimes topped with icing.</p>
+            <div class="card-footer">
+              <p class="price mb-2">$3.25</p>
+            </div>
+          </div>
+
+
+        </div>
+   
+     
+    
+    
+
+</div>
+
+<footer class="custom-footer">
+    <p>&copy; 2025 All Rights Reserved</p>
+</footer>
+
+    <script src="index.js"></script>
+    <script src="scroll.js"></script>
+</body>
+</html>

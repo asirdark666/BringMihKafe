@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Kafé | Services</title>
+
+
+    <style>
+        body{
+            background-color: #b06500;
+            background-image: linear-gradient(315deg, #b06500 0%, #5A321A 74%);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .text-brown {
+          color: #6b3e26;
+        }
+
+      .hover-shadow:hover {
+          transform: translateY(-5px);
+          transition: all 0.3s ease;
+          box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        
+    <header id="header">
+        <div class="header-top-bar">
+            <span>Welcome to Bring Mih Kafé</span>
+        </div>
+
+    <nav class="navigation">
+        <a href="Home.html" class="logo">
+            <img src="logo.png" alt="logo">
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="menu" id="menu" >
+            <li><a href="Home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" id="dropdown-toggle">Explore </a>
+                <div class="dropdown-content">
+                    <a href="blog.html">Blog Insights</a>
+                    <a href="team.html">Team </a>
+                    <a href="services.html">Services</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="event.html">Event Community</a>
+                    <a href="book.html">Book Spacing</a>
+                    <a href="location.html">Our location</a>
+                    <a href="Testimonials.html">Customer Testimonials</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="right-nav">
+            <a href="#" class="nav-cart">
+                <i class="fas fa-mug-hot"></i>
+            </a>
+        </div>
+    </nav>
+    <div id="menu-overlay" class="menu-overlay"></div>
+    </header>
+
+
+<section id="services" class="py-5" >
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5" style="color: white;">Our Services</h2>
+    <div class="row g-4">
+
+      <div class=" col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3 hover-shadow">
+          <div class="card-body text-center">
+            <i class="bi bi-cup-hot-fill display-5 text-brown mb-3"></i>
+            <h5 class="card-title fw-semibold">Dine-In Experience</h5>
+            <p class="card-text">Relax in our cozy seating with free Wi-Fi and charging stations—perfect for studying or chilling out.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3 hover-shadow">
+          <div class="card-body text-center">
+            <i class="bi bi-bag-check-fill display-5 text-brown mb-3"></i>
+            <h5 class="card-title fw-semibold">Takeaway & Call-Ahead</h5>
+            <p class="card-text">Order via WhatsApp and pick up quickly—great for busy mornings or lunch breaks.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3 hover-shadow">
+          <div class="card-body text-center">
+            <i class="bi bi-truck display-5 text-brown mb-3"></i>
+            <h5 class="card-title fw-semibold">Local Delivery</h5>
+            <p class="card-text">We deliver fresh brews to your door—within 3 miles of the café. Fast and reliable.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3 hover-shadow">
+          <div class="card-body text-center">
+            <i class="bi bi-calendar-heart-fill display-5 text-brown mb-3"></i>
+            <h5 class="card-title fw-semibold">Subscription Plan</h5>
+            <p class="card-text">Get a daily drink, discounts, and early access to new menu items with our monthly plan.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3 hover-shadow">
+          <div class="card-body text-center">
+            <i class="bi bi-bezier display-5 text-brown mb-3"></i>
+            <h5 class="card-title fw-semibold">Custom Coffee Blends</h5>
+            <p class="card-text">Craft your own blend by selecting beans, roast level, and flavor notes—perfect for gifting.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3 hover-shadow">
+          <div class="card-body text-center">
+            <i class="bi bi-cart-check-fill display-5 text-brown mb-3"></i>
+            <h5 class="card-title fw-semibold">Event Catering</h5>
+            <p class="card-text">Rent our coffee cart or book catering for weddings, office parties, or school events.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3 hover-shadow">
+          <div class="card-body text-center">
+            <i class="bi bi-stars display-5 text-brown mb-3"></i>
+            <h5 class="card-title fw-semibold">Loyalty Program</h5>
+            <p class="card-text">Buy 9 drinks and get the 10th free! Enjoy birthday specials and exclusive rewards.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3 hover-shadow">
+          <div class="card-body text-center">
+            <i class="bi bi-mic-fill display-5 text-brown mb-3"></i>
+            <h5 class="card-title fw-semibold">Community Nights</h5>
+            <p class="card-text">Join our Thursday “Open Mic & Brew” nights and vibe with live music and poetry.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+</div>
+
+<footer class="custom-footer">
+    <p>&copy; 2025 All Rights Reserved</p>
+</footer>
+
+    <script src="index.js"></script>
+    <script src="scroll.js"></script>
+</body>
+</html>

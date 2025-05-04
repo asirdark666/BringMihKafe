@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Kafé | Gallery</title>
+
+
+    <style>
+        body{
+            background-color: #b06500;
+            background-image: linear-gradient(315deg, #b06500 0%, #5A321A 74%);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+    }
+    .gallery-item {
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    .gallery-item:hover {
+      transform: scale(1.05);
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .caption {
+      padding: 0.5rem 1rem;
+      background-color: #f5e7dc;
+      font-weight: bold;
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        
+    <header id="header">
+        <div class="header-top-bar">
+            <span>Welcome to Bring Mih Kafé</span>
+        </div>
+
+    <nav class="navigation">
+        <a href="Home.html" class="logo">
+            <img src="logo.png" alt="logo">
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="menu" id="menu" >
+            <li><a href="Home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" id="dropdown-toggle">Explore </a>
+                <div class="dropdown-content">
+                    <a href="blog.html">Blog Insights</a>
+                    <a href="team.html">Team </a>
+                    <a href="services.html">Services</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="event.html">Event Community</a>
+                    <a href="book.html">Book Spacing</a>
+                    <a href="location.html">Our location</a>
+                    <a href="Testimonials.html">Customer Testimonials</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="right-nav">
+            <a href="#" class="nav-cart">
+                <i class="fas fa-mug-hot"></i>
+            </a>
+        </div>
+    </nav>
+    <div id="menu-overlay" class="menu-overlay"></div>
+    </header>
+    <h1>Bring Mih Coffee Gallery</h1>
+    <p>A look at our brews, vibes, and community moments</p>
+  </header>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="gallery2.png" alt="Latte Art" />
+    </div>
+    <div class="gallery-item">
+      <img src="gallery3.png" alt="Cozy interior" />
+    </div>
+    <div class="gallery-item">
+      <img src="gallery4.png" alt="Event night crowd" />
+    </div>
+    <div class="gallery-item">
+      <img src="gallery5.png" alt="Coffee beans" />
+    </div>
+    <div class="gallery-item">
+      <img src="gallery6.png" alt="Outdoor seating" />
+    </div>
+    <div class="gallery-item">
+        <img src="gallery7.png" alt="Outdoor seating" />
+    </div>
+    <div class="gallery-item">
+        <img src="gallery8.png" alt="Outdoor seating" />
+    </div>
+    <div class="gallery-item">
+        <img src="gallery9.png" alt="Outdoor seating" />
+    </div>
+  </div>
+</div>
+
+<footer class="custom-footer">
+    <p>&copy; 2025 All Rights Reserved</p>
+</footer>
+
+    <script src="index.js"></script>
+    <script src="scroll.js"></script>
+</body>
+</html>
